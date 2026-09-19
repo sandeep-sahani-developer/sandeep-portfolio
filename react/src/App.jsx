@@ -11,7 +11,7 @@ import Footer from "./components/Footer.jsx";
 import useReveal from "./hooks/useReveal.js";
 
 /* Drop a PDF in /public and point this at it, e.g. "/Sandeep-Sahani-Resume.pdf" */
-const RESUME_URL = "";
+const RESUME_URL = "./components/resume.pdf";
 
 export default function App() {
   const [active, setActive] = useState("home");
